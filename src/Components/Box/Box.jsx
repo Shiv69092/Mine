@@ -33,10 +33,10 @@ function Box({ content, revealed, onClick, gameStarted, onLoadingComplete }) {
   };
 
   const boxClass = gameStarted
-    ? `box flex items-center justify-center w-[50px] h-[30px] lg:w-[160px] lg:h-[50px] bg-[#F7AB98] rounded-lg text-normal lg:text-2xl cursor-pointer text-black gap-1 lg:gap-2 ${
+    ? `box flex items-center justify-center w-[50px] h-[30px] md:w-[110px] md:h-[40px] lg:w-[160px] lg:h-[50px] bg-[#F7AB98] rounded-lg text-normal lg:text-2xl cursor-pointer text-black gap-1 lg:gap-2 ${
         clicked ? "transition-transform duration-10 transform scale-110" : ""
       } ${revealed ? "bg-neon-green animate-neon" : "latest"}`
-    : `box flex items-center justify-center w-[50px] h-[30px] lg:w-[160px] lg:h-[50px] bg-[#444444] rounded-lg text-normal lg:text-2xl cursor-pointer text-black gap-1 lg:gap-2 ${
+    : `box flex items-center justify-center w-[50px] h-[30px] md:w-[110px] md:h-[40px] lg:w-[160px] lg:h-[50px] bg-[#444444] rounded-lg text-normal lg:text-2xl cursor-pointer text-black gap-1 lg:gap-2 ${
         clicked ? "transition-transform duration-10 transform scale-110" : ""
       }`;
 
