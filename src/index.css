@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes neon {
+  from {
+    box-shadow: 0 0 2px #3e6d4f, 0 0 4px #3e6d4f, 0 0 6px #3e6d4f;
+  }
+  to {
+    box-shadow: 0 0 4px #3e6d4f, 0 0 8px #3e6d4f, 0 0 12px #3e6d4f;
+  }
+}
